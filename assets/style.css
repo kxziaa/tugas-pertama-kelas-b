@@ -1,0 +1,495 @@
+
+*{
+    font-family: 'Poppins';
+}
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: #152C5b;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li{
+    margin-right: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+
+.header h1{
+    color:#152c5b;
+}
+
+.stay{
+    color: #3252df;
+}
+
+.home{
+    color: #3252df;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 110px;
+    padding-right: 100px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget_your {
+    position: relative;
+    margin-right: 100px;
+}
+
+.forget_your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget_your p {
+    color: #B0B0B0;
+}
+
+.forget_your button {
+    background-color: #3252df;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    border: none;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+
+
+
+.MostPicked h2 {
+    padding-top: 15px;
+    padding-left: 150px;
+    color: #152C5B;
+    font-size: 30px;
+}
+
+.pick {
+    position: absolute;
+    display: flex;
+}
+
+
+
+.container {
+    display: flex;
+    width: auto;
+    background-color: white;
+    margin: 140px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.box {
+    position: relative;
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+}
+
+.rectangle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.rectangle .price {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+}
+
+.price p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+}
+
+.rectangle span {
+    font-weight: bold;
+}
+
+.box .title {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    align-items: left;
+}
+
+.title h3 {
+    color: #152C5B;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.title p {
+    color: #152C5B;
+    font-size: 15px;
+    margin-top: 0px;
+    font-style: light;
+}
+
+.backyard h2 {
+    padding-top: 15px;
+    padding-left: 150px;
+    color: #152C5B;
+    font-size: 30px;
+}
+.container2 {
+    display: flex;
+    width: auto;
+    background-color: white;
+    margin: 140px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box2 {
+    position: relative;
+
+    border: none;
+    padding: 10px;
+    width: fit-content;
+}
+
+.box2 h3 {
+    color: #152C5B;
+    font-size: 22px;
+}
+
+.box2 p {
+    color:#B0B0B0;
+    font-size: 15px;
+}
+.rectangle2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.pc p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+}
+.pc span {
+    font-weight: bold;
+}
+.rectangle2 .pc {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+
+.hotels h2 {
+    padding-top: 15px;
+    padding-left: 150px;
+    color: #152C5B;
+    font-size: 30px;
+}
+.container3 {
+    display: flex;
+    width: auto;
+    background-color: white;
+    margin: 140px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.box3 {
+    position: relative;
+
+    border: none;
+    padding: 10px;
+    width: fit-content;
+}
+
+.box3 h3 {
+    color: #152C5B;
+    font-size: 22px;
+}
+
+.box3 p {
+    color:#B0B0B0;
+    font-size: 15px;
+}
+
+.rectangle3 {
+    position: absolute;
+    top: 10px;
+    right: 11px;
+}
+
+
+.rectangle3 .pc2 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.pc2 p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+
+}
+
+.pc2 span {
+    font-weight: bold;
+}
+
+.apartement h2 {
+    padding-top: 15px;
+    padding-left: 150px;
+    color: #152C5B;
+    font-size: 30px;
+}
+
+.container4 {
+    display: flex;
+    width: auto;
+    background-color: white;
+    margin: 140px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.box4 {
+    position: relative;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+}
+
+.box4 h3 {
+    color: #152C5B;
+    font-size: 22px;
+}
+
+.box4 p {
+    color:#B0B0B0;
+    font-size: 15px;
+}
+
+.rectangle4 {
+    position: absolute;
+    top: 10px;
+    right: 11px;
+}
+
+
+.rectangle4 .pc3 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.pc3 p {
+    color: white;
+    font-size: 18px;
+    margin: 0%;
+}
+
+.pc3 span {
+    font-weight: bold;
+}
+
+
+
+
+
+.HappyFamily {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    color:#152C5B;
+}
+
+
+
+
+.box5 {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 80px;
+}
+
+.FamPic {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.FamPic img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transform: matrix(-1,0,0,1,0,0);
+}
+
+.ReadOur {
+    margin: auto;
+    margin-left: 10px ;
+
+}
+
+.ReadOur button {
+    background-color: #3252df;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+.ReadOur h3 {
+    font-size: 24px;
+}
+
+.ReadOur h2 {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.ReadOur p {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid #E5E5E5;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-top: 30px;
+    color: #152C5B;
+}
+
+.kaboom {
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.kaboom h1 {
+    font-size: 24px;
+}
+
+.kaboom p {
+    font-size: 18px;
+    color: #B0B0B0;
+}
+
+.beginners {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.beginners h2{
+    font-size: 18px;
+}
+
+.beginners p {
+    font-size: 16px;
+    color: #B0B0B0;
+}
+
+
+.explore {
+    flex-grow: 1;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.explore h2{
+    font-size: 18px;
+}
+
+.explore p {
+    font-size: 16px;
+    color: #B0B0B0;
+}
+
+.getting {
+    flex-grow: 1;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.getting h2{
+    font-size: 18px;
+}
+
+.getting p {
+    font-size: 16px;
+    color: #B0B0B0;
+}
+
+.cr p{
+    padding-top: 30px;
+    font-size: 18px;
+    color: #B0B0B0;
+    text-align: center;
+}
