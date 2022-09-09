@@ -98,7 +98,7 @@ main .show__me {
     padding-top: 15px;
     padding-left: 150px;
     color: #152C5B;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .pick {
@@ -186,7 +186,7 @@ main .show__me {
     padding-top: 15px;
     padding-left: 150px;
     color: #152C5B;
-    font-size: 30px;
+    font-size: 24px;
 }
 .container2 {
     display: flex;
@@ -209,11 +209,13 @@ main .show__me {
 .box2 h3 {
     color: #152C5B;
     font-size: 22px;
+    margin-bottom: 0px;
 }
 
 .box2 p {
     color:#B0B0B0;
     font-size: 15px;
+    margin-top: 5px;
 }
 .rectangle2 {
     position: absolute;
@@ -239,7 +241,7 @@ main .show__me {
     padding-top: 15px;
     padding-left: 150px;
     color: #152C5B;
-    font-size: 30px;
+    font-size: 24px;
 }
 .container3 {
     display: flex;
@@ -263,11 +265,13 @@ main .show__me {
 .box3 h3 {
     color: #152C5B;
     font-size: 22px;
+    margin-bottom: 0px;
 }
 
 .box3 p {
     color:#B0B0B0;
     font-size: 15px;
+    margin-top: 5px;
 }
 
 .rectangle3 {
@@ -297,7 +301,7 @@ main .show__me {
     padding-top: 15px;
     padding-left: 150px;
     color: #152C5B;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .container4 {
@@ -320,11 +324,13 @@ main .show__me {
 .box4 h3 {
     color: #152C5B;
     font-size: 22px;
+    margin-bottom: 0px;
 }
 
 .box4 p {
     color:#B0B0B0;
     font-size: 15px;
+    margin-top: 5px;
 }
 
 .rectangle4 {
@@ -388,6 +394,7 @@ main .show__me {
 
 .ReadOur {
     margin: auto;
+    margin-top: 100px;
     margin-left: 10px ;
 
 }
@@ -401,15 +408,17 @@ main .show__me {
     padding-top: 10px;
     border: none;
     font-size: 18px;
+    border-radius: 4px;
 }
 
 .ReadOur h3 {
     font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .ReadOur h2 {
     font-size: 32px;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 .ReadOur p {
@@ -428,8 +437,8 @@ main .show__me {
 
 .kaboom {
     flex-grow: 1;
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-left: 150px;
+    margin-right: 0px;
 }
 
 .kaboom h1 {
@@ -443,7 +452,7 @@ main .show__me {
 
 .beginners {
     flex-grow: 1;
-    margin-left: 20px;
+    margin-left: 0px;
     padding-right: 10px;
 }
 
